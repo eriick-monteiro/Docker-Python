@@ -1,14 +1,14 @@
 ## 🐳 1️⃣ Primeiro comando
 
 ```bash
-docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql.latest
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql.latest
 ```
 ### O que ele faz:
 
 - `docker run` → cria e inicia um novo container.
 - `--name some-mysql` → define o nome do container como some-mysql.
-- `-e MYSQL_ROOT_PASSWORD=my-secret-pw` → define uma variável de ambiente dentro do container:
-    - Está configurando a senha do usuário root do MySQL como `my-secret-pw`.
+- `-e MYSQL_ROOT_PASSWORD=root` → define uma variável de ambiente dentro do container:
+    - Está configurando a senha do usuário root do MySQL como `root`.
 - `-d` → roda o container em modo detached (em segundo plano).
 - `mysql.latest` → imagem usada para criar o container.
 
