@@ -1,4 +1,8 @@
 # Docker Python
+
+Projeto feito seguindo a Playlist [Docker na Prática com Python
+](https://www.youtube.com/playlist?list=PLAgbpJQADBGIDbMSopaqFnGm7GJnwru0-) do canal [Programador Lhama](https://www.youtube.com/@ProgramadorLhama).
+
 ## 🛠️ Tecnologias Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
