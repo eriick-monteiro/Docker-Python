@@ -80,6 +80,8 @@ http://127.0.0.1:5000/
 ├── 🐍 app.py
 ├── 📝 aula1.md
 ├── 🐳 Dockerfile
+├── ⚙️ install.bat
+├── ⚙️ install.ps1
 ├── ⚙️ install.sh
 ├── 📦 requirements.txt
 └── 📘 README.md
